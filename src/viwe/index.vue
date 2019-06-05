@@ -1,6 +1,7 @@
 <template>
   <div >
       <v-header></v-header>
+      <v-inner></v-inner>
   </div>
 </template>
 
@@ -8,6 +9,7 @@
 import header from '../components/header.vue';
 export default {
     components:{
+        'v-inne':inner,
         'v-header':header,
     }
 
