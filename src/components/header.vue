@@ -12,7 +12,7 @@
       </li>
       <li class="nav-item">
         <a class="nav-link" href="#">文章目录</a>
-      </li>
+      </li>sada
       <li class="nav-item ">
         <a class="nav-link" href="#">我的关联</a>
       </li> 
@@ -178,12 +178,13 @@ export default {
 .fadebox{
   position: fixed;
   top:30%;
-  background-color: rgba(151, 151, 151, 0.459);
+  background-color: rgb(151, 151, 151);
   border-radius: 25px;
   padding: 20px;
+  z-index: 99;
 }
 .fade-enter-active, .fade-leave-active {
-    transition: opacity 0.5s
+    transition:  0.5s
 }
 .fade-enter, .fade-leave-to /* .fade-leave-active, 2.1.8 版本以下 */ {
     opacity: 0

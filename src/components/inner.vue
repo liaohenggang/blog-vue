@@ -1,25 +1,7 @@
 <template>
 
     <div>
-        <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
-  <a class="navbar-brand" href="#">导航</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <div class="collapse navbar-collapse" id="collapsibleNavbar">
-    <ul class="navbar-nav">
-      <li class="nav-item">
-        <a class="nav-link" href="#">链接</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">链接</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">链接</a>
-      </li>    
-    </ul>
-  </div>  
-</nav>
+   
 
 <div class="container" style="margin-top:30px">
   <div class="row">
@@ -47,23 +29,23 @@
       <hr class="d-sm-none">
     </div>
     <div class="col-sm-8">
-      <h2>标题</h2>
+      <h2>文章标题</h2>
       <h5>副标题</h5>
       <div class="fakeimg">图像</div>
       <p>一些文本..</p>
-      <p>菜鸟教程，学的不仅是技术，更是梦想！！！菜鸟教程，学的不仅是技术，更是梦想！！！菜鸟教程，学的不仅是技术，更是梦想！！！</p>
+      <p></p>
       <br>
-      <h2>标题</h2>
+      <h2>文章标题</h2>
       <h5>副标题</h5>
       <div class="fakeimg">图像</div>
       <p>一些文本..</p>
-      <p>菜鸟教程，学的不仅是技术，更是梦想！！！菜鸟教程，学的不仅是技术，更是梦想！！！菜鸟教程，学的不仅是技术，更是梦想！！！</p>
+      <p></p>
     </div>
   </div>
 </div>
 
 <div class="jumbotron text-center" style="margin-bottom:0">
-  <p>底部内容</p>
+  <p>footer放的内容</p>
 </div>
 
     </div>
